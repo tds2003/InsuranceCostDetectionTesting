@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-05T07:28:01 IST" name="Suite" finished-at="2023-03-05T07:32:02 IST" duration-ms="240807">
+    <groups>
+    </groups>
+    <test started-at="2023-03-05T07:28:01 IST" name="Test" finished-at="2023-03-05T07:32:02 IST" duration-ms="240807">
+      <class name="MyMavenProject.InsuranceBruteTesting2">
+        <test-method signature="hittingBrowser()[pri:1, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:28:01 IST" name="hittingBrowser" finished-at="2023-03-05T07:28:18 IST" duration-ms="17404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hittingBrowser -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:28:18 IST" name="tearDownTest" finished-at="2023-03-05T07:28:19 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="enterIntoFrame()[pri:2, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:28:19 IST" name="enterIntoFrame" finished-at="2023-03-05T07:28:35 IST" duration-ms="16245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterIntoFrame -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:28:35 IST" name="tearDownTest" finished-at="2023-03-05T07:28:35 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="ageFieldTest()[pri:3, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:28:35 IST" name="ageFieldTest" finished-at="2023-03-05T07:28:53 IST" duration-ms="17763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ageFieldTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:28:53 IST" name="tearDownTest" finished-at="2023-03-05T07:28:53 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="genderFieldTest()[pri:4, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:28:53 IST" name="genderFieldTest" finished-at="2023-03-05T07:29:12 IST" duration-ms="19036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genderFieldTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:29:12 IST" name="tearDownTest" finished-at="2023-03-05T07:29:13 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="heightFieldTest()[pri:5, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:29:13 IST" name="heightFieldTest" finished-at="2023-03-05T07:29:29 IST" duration-ms="16452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heightFieldTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:29:29 IST" name="tearDownTest" finished-at="2023-03-05T07:29:30 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="weightFieldTest()[pri:6, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:29:30 IST" name="weightFieldTest" finished-at="2023-03-05T07:29:57 IST" duration-ms="27086" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-label='Weight (in Kg) ']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8186beb9adaa22f8c90d78b54ef2e86, findElement {using=xpath, value=//input[@aria-label='Weight (in Kg) ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\sarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60714/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b8186beb9adaa22f8c90d78b54ef2e86]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-label='Weight (in Kg) ']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8186beb9adaa22f8c90d78b54ef2e86, findElement {using=xpath, value=//input[@aria-label='Weight (in Kg) ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\sarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60714/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b8186beb9adaa22f8c90d78b54ef2e86
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at MyMavenProject.InputFileCases.weightProvider(InputFileCases.java:65)
+at MyMavenProject.InsuranceBruteTesting2.weightFieldTest(InsuranceBruteTesting2.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weightFieldTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:29:57 IST" name="tearDownTest" finished-at="2023-03-05T07:29:57 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="numberOfChildrenFieldTest()[pri:7, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:29:57 IST" name="numberOfChildrenFieldTest" finished-at="2023-03-05T07:30:14 IST" duration-ms="16587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfChildrenFieldTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:30:14 IST" name="tearDownTest" finished-at="2023-03-05T07:30:14 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="smokerTest()[pri:8, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:30:14 IST" name="smokerTest" finished-at="2023-03-05T07:30:33 IST" duration-ms="18878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokerTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:30:33 IST" name="tearDownTest" finished-at="2023-03-05T07:30:33 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="regionTest()[pri:9, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:30:33 IST" name="regionTest" finished-at="2023-03-05T07:30:52 IST" duration-ms="18690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regionTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:30:52 IST" name="tearDownTest" finished-at="2023-03-05T07:30:52 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="brokenLinkTest()[pri:10, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:30:52 IST" name="brokenLinkTest" finished-at="2023-03-05T07:31:20 IST" duration-ms="27325" status="FAIL">
+          <exception class="java.net.ProtocolException">
+            <message>
+              <![CDATA[Server redirected too many  times (20)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.ProtocolException: Server redirected too many  times (20)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:2005)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)
+at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)
+at MyMavenProject.InsuranceBruteTesting2.brokenLinkTest(InsuranceBruteTesting2.java:137)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.ProtocolException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinkTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.InsuranceBruteTesting2@6440112d]" started-at="2023-03-05T07:31:20 IST" name="tearDownTest" finished-at="2023-03-05T07:31:20 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- MyMavenProject.InsuranceBruteTesting2 -->
+      <class name="MyMavenProject.IntegrationTesting">
+        <test-method signature="wholeFormTest(java.util.HashMap)[pri:0, instance:MyMavenProject.IntegrationTesting@1040be71]" started-at="2023-03-05T07:31:20 IST" name="wholeFormTest" data-provider="getData" finished-at="2023-03-05T07:31:42 IST" duration-ms="21273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{weight=80, noOfChildren=0, age=19, height=159}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wholeFormTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.IntegrationTesting@1040be71]" started-at="2023-03-05T07:31:42 IST" name="tearDownTest" finished-at="2023-03-05T07:31:42 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="wholeFormTest(java.util.HashMap)[pri:0, instance:MyMavenProject.IntegrationTesting@1040be71]" started-at="2023-03-05T07:31:42 IST" name="wholeFormTest" data-provider="getData" finished-at="2023-03-05T07:32:01 IST" duration-ms="19288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{weight=60, noOfChildren=5, age=20, height=175}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wholeFormTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:MyMavenProject.IntegrationTesting@1040be71]" started-at="2023-03-05T07:32:01 IST" name="tearDownTest" finished-at="2023-03-05T07:32:02 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- MyMavenProject.IntegrationTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
